@@ -24,9 +24,11 @@ config:
 
 http:
   # Secrets are defined in the file secrets.yaml
-  # api_password: !secret http_password
+  api_password: !secret http_password
   # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
-  # base_url: example.duckdns.org:8123
+  ssl_certificate: /home/ubuntu/dehydrated/certs/kjaget.duckdns.org/fullchain.pem
+  ssl_key: /home/ubuntu/dehydrated/certs/kjaget.duckdns.org/privkey.pem
+  base_url: kjaget.duckdns.org:8123
 
 # Checks for available updates
 # Note: This component will send some information about your system to
@@ -72,3 +74,18 @@ script: !include scripts.yaml
 
 zwave:
     usb_path: /dev/ttyUSB0
+
+duckdns:
+    domain: kjaget
+    access_token: db512a6d-b594-4e89-ad99-acc1f77ee5b2 
+
+google_assistant:
+  project_id: homeassistant-b3a4e
+  client_id: jUw5qe9RrpoUeL7KQUqPtgnj5htexMnnK5dRrDTqyXiU7IdF4hRxIimiPa0WXZFo0v6311HmDHYDXp6L
+  access_token: 0Hw7T5YyAbsktXZN4yzXnJnlsarleTwgGSPYHSYyjOVDpRY9h8wP2nnxnON4Yjs8U5BvuO32fSzAAYSV
+  #agent_user_id: [a string to identify user]
+  #api_key: [an API Key generated for the Google Actions project]
+  exposed_domains:
+    - switch
+    - light
+    - group
