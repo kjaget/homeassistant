@@ -1,1 +1,25 @@
-[]
+- alias: Master Bedroom Entry Double Tap On
+  hide_entity: True
+  trigger:
+    platform: event
+    event_type: zwave.scene_activated
+    event_data:
+      entity_id: zwave.master_bedroom_entry
+      scene_id: 1
+      scene_data: 3
+  action:
+    - service: switch.turn_on
+      entity_id: group.master_bedroom_switches
+
+- alias: Master Bedroom Entry Double Tap Off
+  hide_entity: True
+  trigger:
+    platform: event
+    event_type: zwave.scene_activated
+    event_data:
+      entity_id: zwave.master_bedroom_entry
+      scene_id: 2
+      scene_data: 3
+  action:
+    - service: switch.turn_off
+      entity_id: group.master_bedroom_switches

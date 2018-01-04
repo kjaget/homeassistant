@@ -1,0 +1,6 @@
+master_bedroom_switches:
+    name: Master Bedroom Switches
+    view: yes
+    entities:
+        - switch.master_bedroom_entry_switch
+        - switch.master_bedroom_recessed_switch
