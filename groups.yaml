@@ -4,3 +4,4 @@ master_bedroom_switches:
     entities:
         - switch.master_bedroom_entry_switch
         - switch.master_bedroom_recessed_switch
+        - switch.master_bedroom_rope_switch
