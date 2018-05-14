@@ -1,33 +1,52 @@
 switch.master_bedroom_recessed_switch:
+  name:
   platform: zwave
   unique_id: 2-72057594076282880
 switch.master_bedroom_entry_switch:
+  name:
   platform: zwave
   unique_id: 3-72057594093060096
 switch.kitchen_main_lights_switch:
+  name:
   platform: zwave
   unique_id: 4-72057594109837312
 media_player.basement_home:
+  name:
   platform: cast
   unique_id: e672790d-06be-d233-ac12-0ee2d15b093d
 media_player.kitchen_speaker:
+  name:
   platform: cast
   unique_id: 78525568-b387-a999-cf7d-1555b0745741
 media_player.master_bedroom_mini:
+  name:
   platform: cast
   unique_id: 44c4fc3c-7d3f-9ba6-bd99-7e945545539f
 media_player.kitchen_mini:
+  name:
   platform: cast
   unique_id: 7487b91e-ec9a-f2ed-3e62-c7d71541b190
 media_player.xbr65x900e:
+  name:
   platform: cast
   unique_id: 13918fca-a071-004d-08c5-48a1fa32db4c
 media_player.master_bedroom_speaker:
+  name:
   platform: cast
   unique_id: 7c54b489-d7b1-b531-ad4f-fd46676f8754
 switch.switch:
+  name:
   platform: zwave
   unique_id: 5-72057594126614528
 switch.switch_2:
+  name:
   platform: zwave
   unique_id: 6-72057594143391744
+switch.switch_3:
+  name:
+  platform: zwave
+  unique_id: 7-72057594160168960
+switch.switch_4:
+  name:
+  platform: zwave
+  unique_id: 8-72057594176946176
