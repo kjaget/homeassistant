@@ -38,15 +38,63 @@ switch.switch:
   name:
   platform: zwave
   unique_id: 5-72057594126614528
-switch.switch_2:
+switch.master_bedroom_rope_switch:
   name:
   platform: zwave
   unique_id: 6-72057594143391744
-switch.switch_3:
+switch.basement_tv_lights_switch:
   name:
   platform: zwave
   unique_id: 7-72057594160168960
-switch.switch_4:
+switch.basement_bar_lights_switch:
   name:
   platform: zwave
   unique_id: 8-72057594176946176
+zwave.sigma_designs_uzb_zwave_usb_adapter:
+  name:
+  platform: zwave
+  unique_id: node-1
+zwave.master_bedroom_recessed:
+  name:
+  platform: zwave
+  unique_id: node-2
+zwave.master_bedroom_entry:
+  name:
+  platform: zwave
+  unique_id: node-3
+zwave.kitchen_main_lights:
+  name:
+  platform: zwave
+  unique_id: node-4
+zwave.breakfast_lights:
+  name:
+  platform: zwave
+  unique_id: node-5
+zwave.master_bedroom_rope:
+  name:
+  platform: zwave
+  unique_id: node-6
+zwave.basement_tv_lights:
+  name:
+  platform: zwave
+  unique_id: node-7
+zwave.basement_bar_lights:
+  name:
+  platform: zwave
+  unique_id: node-8
+media_player.office_speaker:
+  name:
+  platform: cast
+  unique_id: b96f09b6-af09-d20d-dab8-c30eab69e624
+media_player.shield:
+  name:
+  platform: cast
+  unique_id: a91751f9-a079-d38c-b847-bd0413c00b3f
+light.master_bedroom_ceiling_level:
+  name:
+  platform: zwave
+  unique_id: 9-72057594193739777
+zwave.ge_14294_inwall_smart_dimmer:
+  name:
+  platform: zwave
+  unique_id: node-9

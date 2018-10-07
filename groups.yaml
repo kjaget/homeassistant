@@ -5,3 +5,15 @@ master_bedroom_switches:
         - switch.master_bedroom_entry_switch
         - switch.master_bedroom_recessed_switch
         - switch.master_bedroom_rope_switch
+        - light.master_bedroom_ceiling_level
+basement_switches:
+    name: Basement Switches
+    view: yes
+    entities:
+        - switch.basement_tv_lights_switch
+        - switch.basement_bar_lights_switch
+kitchen_switched:
+    name: Kitchen Switches
+    view: yes
+    entities:
+        - switch.kitchen_main_lights_switch
