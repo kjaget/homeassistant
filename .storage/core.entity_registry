@@ -1,0 +1,158 @@
+{
+    "data": {
+        "entities": [
+            {
+                "entity_id": "switch.master_bedroom_recessed_switch",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "2-72057594076282880"
+            },
+            {
+                "entity_id": "switch.master_bedroom_entry_switch",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "3-72057594093060096"
+            },
+            {
+                "entity_id": "switch.kitchen_main_lights_switch",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "4-72057594109837312"
+            },
+            {
+                "entity_id": "media_player.basement_home",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "e672790d-06be-d233-ac12-0ee2d15b093d"
+            },
+            {
+                "entity_id": "media_player.kitchen_speaker",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "78525568-b387-a999-cf7d-1555b0745741"
+            },
+            {
+                "entity_id": "media_player.master_bedroom_mini",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "44c4fc3c-7d3f-9ba6-bd99-7e945545539f"
+            },
+            {
+                "entity_id": "media_player.kitchen_mini",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "7487b91e-ec9a-f2ed-3e62-c7d71541b190"
+            },
+            {
+                "entity_id": "media_player.xbr65x900e",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "13918fca-a071-004d-08c5-48a1fa32db4c"
+            },
+            {
+                "entity_id": "media_player.master_bedroom_speaker",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "7c54b489-d7b1-b531-ad4f-fd46676f8754"
+            },
+            {
+                "entity_id": "switch.switch",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "5-72057594126614528"
+            },
+            {
+                "entity_id": "switch.master_bedroom_rope_switch",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "6-72057594143391744"
+            },
+            {
+                "entity_id": "switch.basement_tv_lights_switch",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "7-72057594160168960"
+            },
+            {
+                "entity_id": "switch.basement_bar_lights_switch",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "8-72057594176946176"
+            },
+            {
+                "entity_id": "zwave.sigma_designs_uzb_zwave_usb_adapter",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-1"
+            },
+            {
+                "entity_id": "zwave.master_bedroom_recessed",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-2"
+            },
+            {
+                "entity_id": "zwave.master_bedroom_entry",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-3"
+            },
+            {
+                "entity_id": "zwave.kitchen_main_lights",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-4"
+            },
+            {
+                "entity_id": "zwave.breakfast_lights",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-5"
+            },
+            {
+                "entity_id": "zwave.master_bedroom_rope",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-6"
+            },
+            {
+                "entity_id": "zwave.basement_tv_lights",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-7"
+            },
+            {
+                "entity_id": "zwave.basement_bar_lights",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-8"
+            },
+            {
+                "entity_id": "media_player.office_speaker",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "b96f09b6-af09-d20d-dab8-c30eab69e624"
+            },
+            {
+                "entity_id": "media_player.shield",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "a91751f9-a079-d38c-b847-bd0413c00b3f"
+            },
+            {
+                "entity_id": "light.master_bedroom_ceiling_level",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "9-72057594193739777"
+            },
+            {
+                "entity_id": "zwave.ge_14294_inwall_smart_dimmer",
+                "name": null,
+                "platform": "zwave",
+                "unique_id": "node-9"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}
