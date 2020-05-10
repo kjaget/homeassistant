@@ -1,0 +1,188 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": null,
+                "config_entries": [
+                    "114f6c6c6e074aa7926b8498b8acfcd8"
+                ],
+                "connections": [],
+                "id": "19c83fab866a4e158ac7f42fba49ed90",
+                "identifiers": [
+                    [
+                        "zwave",
+                        1
+                    ]
+                ],
+                "manufacturer": "Sigma Designs",
+                "model": "UZB Z-Wave USB Adapter",
+                "name": "Sigma Designs UZB Z-Wave USB Adapter",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "114f6c6c6e074aa7926b8498b8acfcd8"
+                ],
+                "connections": [],
+                "id": "226fd7f7b49342e6b8f40ba01a679d25",
+                "identifiers": [
+                    [
+                        "zwave",
+                        2
+                    ]
+                ],
+                "manufacturer": "HomeSeer",
+                "model": "HS-WS100+ Wall Switch",
+                "name": "Master Bedroom Recessed",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "114f6c6c6e074aa7926b8498b8acfcd8"
+                ],
+                "connections": [],
+                "id": "5439eeedd2fb4139a7bbd0a3a661bac2",
+                "identifiers": [
+                    [
+                        "zwave",
+                        3
+                    ]
+                ],
+                "manufacturer": "HomeSeer",
+                "model": "HS-WS100+ Wall Switch",
+                "name": "Master Bedroom Entry",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "114f6c6c6e074aa7926b8498b8acfcd8"
+                ],
+                "connections": [],
+                "id": "4a782cfc4bfa4dea95d66bf50cb1bb30",
+                "identifiers": [
+                    [
+                        "zwave",
+                        4
+                    ]
+                ],
+                "manufacturer": "HomeSeer",
+                "model": "HS-WS100+ Wall Switch",
+                "name": "Kitchen Main Lights",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "114f6c6c6e074aa7926b8498b8acfcd8"
+                ],
+                "connections": [],
+                "id": "fd4e337f4eae45159e71f67f55377ce6",
+                "identifiers": [
+                    [
+                        "zwave",
+                        5
+                    ]
+                ],
+                "manufacturer": "HomeSeer",
+                "model": "HS-WS100+ Wall Switch",
+                "name": "Breakfast Lights",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "114f6c6c6e074aa7926b8498b8acfcd8"
+                ],
+                "connections": [],
+                "id": "91bff07bb64248f996265fea93e5a5c0",
+                "identifiers": [
+                    [
+                        "zwave",
+                        6
+                    ]
+                ],
+                "manufacturer": "GE",
+                "model": "14291 In-Wall Smart Switch",
+                "name": "Master Bedroom Rope",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "114f6c6c6e074aa7926b8498b8acfcd8"
+                ],
+                "connections": [],
+                "id": "ce1cfd4bfe5d45b19445cbfccdd5ce4c",
+                "identifiers": [
+                    [
+                        "zwave",
+                        7
+                    ]
+                ],
+                "manufacturer": "HomeSeer",
+                "model": "HS-WS100+ Wall Switch",
+                "name": "Basement TV Lights",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "114f6c6c6e074aa7926b8498b8acfcd8"
+                ],
+                "connections": [],
+                "id": "c4690c8e04f44b6788ff18618dbe1a0b",
+                "identifiers": [
+                    [
+                        "zwave",
+                        8
+                    ]
+                ],
+                "manufacturer": "GE",
+                "model": "14291 In-Wall Smart Switch",
+                "name": "Basement Bar Lights",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "114f6c6c6e074aa7926b8498b8acfcd8"
+                ],
+                "connections": [],
+                "id": "7caa88b2ce9a4414b71673cd97fdc72c",
+                "identifiers": [
+                    [
+                        "zwave",
+                        9
+                    ]
+                ],
+                "manufacturer": "GE",
+                "model": "14294 In-Wall Smart Dimmer",
+                "name": "Master Bedroom Ceiling",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90"
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

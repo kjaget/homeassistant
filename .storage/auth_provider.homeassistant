@@ -1,0 +1,13 @@
+{
+    "data": {
+        "salt": "7b464fab49a0b217ab7ffa07be0496929016fcc267f8973f345b202f54dd20e8",
+        "users": [
+            {
+                "password": "JDJiJDEyJHVjLllOZFcxQ2lxVUF0cTNQVUt4ei41dlBVQ1B5U25PYXhnSnJxQzlUb3AxenYuai9hdFhL",
+                "username": "kjaget"
+            }
+        ]
+    },
+    "key": "auth_provider.homeassistant",
+    "version": 1
+}

@@ -1,4 +1,7 @@
 homeassistant:
+  auth_providers:
+    - type: homeassistant
+
   # Name of the location where Home Assistant is running
   name: Home
   # Location required to calculate the time the sun rises and sets
@@ -24,7 +27,6 @@ config:
 
 http:
   # Secrets are defined in the file secrets.yaml
-  api_password: !secret http_password
   # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
   ssl_certificate: /home/ubuntu/dehydrated/certs/kjaget.duckdns.org/fullchain.pem
   ssl_key: /home/ubuntu/dehydrated/certs/kjaget.duckdns.org/privkey.pem
@@ -41,6 +43,8 @@ updater:
 
 # Discover some devices automatically
 discovery:
+  ignore:
+    - yamaha
 
 # Allows you to issue voice commands from the frontend in enabled browsers
 conversation:
@@ -63,7 +67,8 @@ sensor:
 
 # Text to speech
 tts:
-  - platform: google
+  - platform: google_translate
+    service_name: google_say
 
 # Cloud
 cloud:
@@ -81,8 +86,11 @@ duckdns:
 
 google_assistant:
   project_id: homeassistant-b3a4e
-  client_id: jUw5qe9RrpoUeL7KQUqPtgnj5htexMnnK5dRrDTqyXiU7IdF4hRxIimiPa0WXZFo0v6311HmDHYDXp6L
-  access_token: 0Hw7T5YyAbsktXZN4yzXnJnlsarleTwgGSPYHSYyjOVDpRY9h8wP2nnxnON4Yjs8U5BvuO32fSzAAYSV
+  #client_id: jUw5qe9RrpoUeL7KQUqPtgnj5htexMnnK5dRrDTqyXiU7IdF4hRxIimiPa0WXZFo0v6311HmDHYDXp6L
+  # access_token: 0Hw7T5YyAbsktXZN4yzXnJnlsarleTwgGSPYHSYyjOVDpRY9h8wP2nnxnON4Yjs8U5BvuO32fSzAAYSV
+  #service_account:
+      #private_key:
+        #client_email:
   #agent_user_id: [a string to identify user]
   #api_key: [an API Key generated for the Google Actions project]
   exposed_domains:
@@ -91,12 +99,23 @@ google_assistant:
     - group
 
 media_player:
-    - platform : directv
+    - platform: directv
       host: 192.168.0.30
       port: 8080
       name: HR54
       device: 0
-
+    - platform: yamaha
+      host: 192.168.0.228
+      name: 'Exercise Room Receiver'
+      zone_ignore:
+        - "Zone_2"
+        - "Zone_3"
+        - "Zone_4"
+    - platform: yamaha
+      host: 192.168.0.32
+      name: 'Basement TV Receiver'
+      zone_ignore:
+        - "Zone_2"
 
 recorder:
     purge_keep_days: 10
@@ -110,3 +129,25 @@ recorder:
             - sensor.last_boot # Comes from 'systemmonitor' sensor platform
             - sensor.date
 
+
+
+light:
+
+  - platform: template
+    lights:
+      bedroom_celing_switch:
+        friendly_name: 'Bedroom Ceiling'
+        level_template: '{{ 255 if is_state("light.master_bedroom_ceiling_level", "on") else 0 }}'
+        value_template: '{{ is_state("light.master_bedroom_ceiling_level", "on") }}'
+        turn_on:
+          service: light.turn_on
+          data:
+            entity_id: light.master_bedroom_ceiling_level
+        turn_off:
+          service: light.turn_off
+          data:
+            entity_id: light.master_bedroom_ceiling_level
+        set_level:
+          service_template: light.turn_'{{ "off" if brightness == 0 else "on" }}'
+          data_template:
+            entity_id: light.master_bedroom_ceiling_level
