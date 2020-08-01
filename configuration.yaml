@@ -17,8 +17,8 @@ homeassistant:
   customize: !include customize.yaml
 
 # Show links to resources in log and frontend
-introduction:
-
+#introduction:
+#
 # Enables the frontend
 frontend:
 
@@ -30,7 +30,7 @@ http:
   # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
   ssl_certificate: /home/ubuntu/dehydrated/certs/kjaget.duckdns.org/fullchain.pem
   ssl_key: /home/ubuntu/dehydrated/certs/kjaget.duckdns.org/privkey.pem
-  base_url: kjaget.duckdns.org:8123
+  #base_url: kjaget.duckdns.org:8123
 
 # Checks for available updates
 # Note: This component will send some information about your system to
@@ -99,11 +99,11 @@ google_assistant:
     - group
 
 media_player:
-    - platform: directv
-      host: 192.168.0.30
-      port: 8080
-      name: HR54
-      device: 0
+    #- platform: directv
+    #host: 192.168.0.30
+    #port: 8080
+    #name: HR54
+    #device: 0
     - platform: yamaha
       host: 192.168.0.228
       name: 'Exercise Room Receiver'
