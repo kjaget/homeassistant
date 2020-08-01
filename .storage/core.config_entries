@@ -15,6 +15,7 @@
                     "disable_new_entities": false
                 },
                 "title": "Z-Wave (import from configuration.yaml)",
+                "unique_id": null,
                 "version": 1
             },
             {
@@ -39,6 +40,7 @@
                     "disable_new_entities": false
                 },
                 "title": "localhost",
+                "unique_id": "3b69986b6b1602fa78ffb5a696faad07012b7a1a",
                 "version": 1
             }
         ]

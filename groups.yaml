@@ -1,6 +1,6 @@
 master_bedroom_switches:
     name: Master Bedroom Switches
-    view: yes
+    #view: yes
     entities:
         - switch.master_bedroom_entry_switch
         - switch.master_bedroom_recessed_switch
@@ -8,12 +8,12 @@ master_bedroom_switches:
         - light.master_bedroom_ceiling_level
 basement_switches:
     name: Basement Switches
-    view: yes
+    #view: yes
     entities:
         - switch.basement_tv_lights_switch
         - switch.basement_bar_lights_switch
-kitchen_switched:
-    name: Kitchen Switches
-    view: yes
-    entities:
-        - switch.kitchen_main_lights_switch
+    #kitchen_switches:
+    #name: Kitchen Switches
+    #view: yes
+    #entities:
+    #    - switch.kitchen_main_lights_switch
