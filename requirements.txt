@@ -21,7 +21,7 @@ home-assistant-frontend==20180221.1
 homeassistant==0.64.0
 idna==2.6
 idna-ssl==1.0.1
-Jinja2==2.10
+Jinja2==2.11.3
 jmespath==0.9.3
 MarkupSafe==1.0
 multidict==4.1.0
