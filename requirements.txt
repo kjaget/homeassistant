@@ -37,7 +37,7 @@ python-dateutil==2.6.1
 python-jose-cryptodome==1.3.2
 python-openzwave==0.4.3
 pytz==2018.4
-PyYAML==3.12
+PyYAML==5.4
 requests==2.18.4
 rxv==0.5.1
 s3transfer==0.1.12
