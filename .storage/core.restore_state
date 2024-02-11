@@ -1,44 +1,46 @@
 {
+    "version": 1,
+    "key": "core.restore_state",
     "data": [
         {
-            "last_seen": "2020-08-01T21:16:19.940401+00:00",
             "state": {
+                "entity_id": "automation.master_bedroom_entry_double_tap_on",
+                "state": "on",
                 "attributes": {
-                    "friendly_name": "Master Bedroom Entry Double Tap On",
                     "last_triggered": null,
-                    "mode": "single"
+                    "mode": "single",
+                    "current": 0,
+                    "friendly_name": "Master Bedroom Entry Double Tap On"
                 },
+                "last_changed": "2024-02-11T20:49:15.946397+00:00",
+                "last_updated": "2024-02-11T20:49:15.946397+00:00",
                 "context": {
-                    "id": "a79e7e7f6fee4c4894e2a9e4dceaccda",
+                    "id": "07b95f12b3ee034941dabf08b4be10e7",
                     "parent_id": null,
                     "user_id": null
-                },
-                "entity_id": "automation.master_bedroom_entry_double_tap_on",
-                "last_changed": "2020-08-01T21:16:19.301115+00:00",
-                "last_updated": "2020-08-01T21:16:19.301115+00:00",
-                "state": "on"
-            }
+                }
+            },
+            "last_seen": "2024-02-11T20:49:17.096178+00:00"
         },
         {
-            "last_seen": "2020-08-01T21:16:19.940401+00:00",
             "state": {
+                "entity_id": "automation.master_bedroom_entry_double_tap_off",
+                "state": "on",
                 "attributes": {
-                    "friendly_name": "Master Bedroom Entry Double Tap Off",
-                    "last_triggered": null,
-                    "mode": "single"
+                    "last_triggered": "2023-08-24T15:38:48.961768+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "friendly_name": "Master Bedroom Entry Double Tap Off"
                 },
+                "last_changed": "2024-02-11T20:49:15.946789+00:00",
+                "last_updated": "2024-02-11T20:49:15.946789+00:00",
                 "context": {
-                    "id": "53641324f97f44a3983301930e1c2673",
+                    "id": "7f5d2b2dc86edb415c5af90b0d119a96",
                     "parent_id": null,
                     "user_id": null
-                },
-                "entity_id": "automation.master_bedroom_entry_double_tap_off",
-                "last_changed": "2020-08-01T21:16:19.301626+00:00",
-                "last_updated": "2020-08-01T21:16:19.301626+00:00",
-                "state": "on"
-            }
+                }
+            },
+            "last_seen": "2024-02-11T20:49:17.096178+00:00"
         }
-    ],
-    "key": "core.restore_state",
-    "version": 1
+    ]
 }
