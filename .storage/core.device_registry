@@ -1,15 +1,13 @@
 {
+    "version": 1,
+    "key": "core.device_registry",
     "data": {
-        "deleted_devices": [],
         "devices": [
             {
-                "area_id": null,
                 "config_entries": [
                     "114f6c6c6e074aa7926b8498b8acfcd8"
                 ],
                 "connections": [],
-                "entry_type": null,
-                "id": "19c83fab866a4e158ac7f42fba49ed90",
                 "identifiers": [
                     [
                         "zwave",
@@ -19,39 +17,19 @@
                 "manufacturer": "Sigma Designs",
                 "model": "UZB Z-Wave USB Adapter",
                 "name": "Sigma Designs UZB Z-Wave USB Adapter",
-                "name_by_user": null,
                 "sw_version": null,
-                "via_device_id": null
+                "entry_type": null,
+                "id": "19c83fab866a4e158ac7f42fba49ed90",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
             },
             {
-                "area_id": null,
                 "config_entries": [
                     "114f6c6c6e074aa7926b8498b8acfcd8"
                 ],
                 "connections": [],
-                "entry_type": null,
-                "id": "226fd7f7b49342e6b8f40ba01a679d25",
-                "identifiers": [
-                    [
-                        "zwave",
-                        2
-                    ]
-                ],
-                "manufacturer": "HomeSeer",
-                "model": "HS-WS100+ Wall Switch",
-                "name": "Master Bedroom Recessed",
-                "name_by_user": null,
-                "sw_version": null,
-                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90"
-            },
-            {
-                "area_id": null,
-                "config_entries": [
-                    "114f6c6c6e074aa7926b8498b8acfcd8"
-                ],
-                "connections": [],
-                "entry_type": null,
-                "id": "5439eeedd2fb4139a7bbd0a3a661bac2",
                 "identifiers": [
                     [
                         "zwave",
@@ -61,39 +39,19 @@
                 "manufacturer": "HomeSeer",
                 "model": "HS-WS100+ Wall Switch",
                 "name": "Master Bedroom Entry",
-                "name_by_user": null,
                 "sw_version": null,
-                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90"
+                "entry_type": null,
+                "id": "5439eeedd2fb4139a7bbd0a3a661bac2",
+                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
             },
             {
-                "area_id": null,
                 "config_entries": [
                     "114f6c6c6e074aa7926b8498b8acfcd8"
                 ],
                 "connections": [],
-                "entry_type": null,
-                "id": "4a782cfc4bfa4dea95d66bf50cb1bb30",
-                "identifiers": [
-                    [
-                        "zwave",
-                        4
-                    ]
-                ],
-                "manufacturer": "HomeSeer",
-                "model": "HS-WS100+ Wall Switch",
-                "name": "Kitchen Main Lights",
-                "name_by_user": null,
-                "sw_version": null,
-                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90"
-            },
-            {
-                "area_id": null,
-                "config_entries": [
-                    "114f6c6c6e074aa7926b8498b8acfcd8"
-                ],
-                "connections": [],
-                "entry_type": null,
-                "id": "fd4e337f4eae45159e71f67f55377ce6",
                 "identifiers": [
                     [
                         "zwave",
@@ -103,18 +61,19 @@
                 "manufacturer": "HomeSeer",
                 "model": "HS-WS100+ Wall Switch",
                 "name": "Breakfast Lights",
-                "name_by_user": null,
                 "sw_version": null,
-                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90"
+                "entry_type": null,
+                "id": "fd4e337f4eae45159e71f67f55377ce6",
+                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
             },
             {
-                "area_id": null,
                 "config_entries": [
                     "114f6c6c6e074aa7926b8498b8acfcd8"
                 ],
                 "connections": [],
-                "entry_type": null,
-                "id": "91bff07bb64248f996265fea93e5a5c0",
                 "identifiers": [
                     [
                         "zwave",
@@ -124,18 +83,19 @@
                 "manufacturer": "GE",
                 "model": "14291 In-Wall Smart Switch",
                 "name": "Master Bedroom Rope",
-                "name_by_user": null,
                 "sw_version": null,
-                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90"
+                "entry_type": null,
+                "id": "91bff07bb64248f996265fea93e5a5c0",
+                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
             },
             {
-                "area_id": null,
                 "config_entries": [
                     "114f6c6c6e074aa7926b8498b8acfcd8"
                 ],
                 "connections": [],
-                "entry_type": null,
-                "id": "ce1cfd4bfe5d45b19445cbfccdd5ce4c",
                 "identifiers": [
                     [
                         "zwave",
@@ -145,18 +105,19 @@
                 "manufacturer": "HomeSeer",
                 "model": "HS-WS100+ Wall Switch",
                 "name": "Basement TV Lights",
-                "name_by_user": null,
                 "sw_version": null,
-                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90"
+                "entry_type": null,
+                "id": "ce1cfd4bfe5d45b19445cbfccdd5ce4c",
+                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
             },
             {
-                "area_id": null,
                 "config_entries": [
                     "114f6c6c6e074aa7926b8498b8acfcd8"
                 ],
                 "connections": [],
-                "entry_type": null,
-                "id": "c4690c8e04f44b6788ff18618dbe1a0b",
                 "identifiers": [
                     [
                         "zwave",
@@ -166,18 +127,19 @@
                 "manufacturer": "GE",
                 "model": "14291 In-Wall Smart Switch",
                 "name": "Basement Bar Lights",
-                "name_by_user": null,
                 "sw_version": null,
-                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90"
+                "entry_type": null,
+                "id": "c4690c8e04f44b6788ff18618dbe1a0b",
+                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
             },
             {
-                "area_id": null,
                 "config_entries": [
                     "114f6c6c6e074aa7926b8498b8acfcd8"
                 ],
                 "connections": [],
-                "entry_type": null,
-                "id": "7caa88b2ce9a4414b71673cd97fdc72c",
                 "identifiers": [
                     [
                         "zwave",
@@ -187,18 +149,19 @@
                 "manufacturer": "GE",
                 "model": "14294 In-Wall Smart Dimmer",
                 "name": "Master Bedroom Ceiling",
-                "name_by_user": null,
                 "sw_version": null,
-                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90"
+                "entry_type": null,
+                "id": "7caa88b2ce9a4414b71673cd97fdc72c",
+                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
             },
             {
-                "area_id": null,
                 "config_entries": [
                     "98556af7579441eab2a44a33774eb142"
                 ],
                 "connections": [],
-                "entry_type": null,
-                "id": "7bcdbec2df7f482d84910e4324b3c758",
                 "identifiers": [
                     [
                         "plex",
@@ -208,12 +171,130 @@
                 "manufacturer": "Plex",
                 "model": "Plex Media Server",
                 "name": "Activity Sensor",
+                "sw_version": "1.32.8.7639-fb6452ebf",
+                "entry_type": null,
+                "id": "7bcdbec2df7f482d84910e4324b3c758",
+                "via_device_id": null,
+                "area_id": null,
                 "name_by_user": null,
-                "sw_version": "1.13.5.5291-6fa5e50a8",
-                "via_device_id": null
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "98556af7579441eab2a44a33774eb142"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "7a20b0b12874a0dc-com-plexapp-android"
+                    ]
+                ],
+                "manufacturer": "Plex",
+                "model": "Plex for Android (TV)",
+                "name": "Plex (Plex for Android (TV) - SHIELD Android TV)",
+                "sw_version": "9.10.1.36024",
+                "entry_type": null,
+                "id": "44a43f4aae3f4da5a92e018b3cffeb40",
+                "via_device_id": "7bcdbec2df7f482d84910e4324b3c758",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "98556af7579441eab2a44a33774eb142"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "plex",
+                        "24f1a44f1af90ed6-com-plexapp-android"
+                    ]
+                ],
+                "manufacturer": "Plex",
+                "model": "Plex for Android (TV)",
+                "name": "Plex (Plex for Android (TV) - SHIELD Android TV)",
+                "sw_version": "9.10.1.36024",
+                "entry_type": null,
+                "id": "0a0b37a3ed6344a4b90c9358133aad00",
+                "via_device_id": "7bcdbec2df7f482d84910e4324b3c758",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "114f6c6c6e074aa7926b8498b8acfcd8"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave",
+                        10
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "Unknown: type=4952, id=3237",
+                "name": "Jasco Products Unknown: type=4952, id=3237",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "4f2cf0ad2adcc1fabe06504810db0954",
+                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "114f6c6c6e074aa7926b8498b8acfcd8"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave",
+                        11
+                    ]
+                ],
+                "manufacturer": "HomeSeer Technologies",
+                "model": "HS-WS100+ Wall Switch",
+                "name": "HomeSeer Technologies HS-WS100+ Wall Switch",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "9287346df240cff98d5ca544c4b14e7e",
+                "via_device_id": "19c83fab866a4e158ac7f42fba49ed90",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            }
+        ],
+        "deleted_devices": [
+            {
+                "config_entries": [
+                    "114f6c6c6e074aa7926b8498b8acfcd8"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave",
+                        4
+                    ]
+                ],
+                "id": "4a782cfc4bfa4dea95d66bf50cb1bb30"
+            },
+            {
+                "config_entries": [
+                    "114f6c6c6e074aa7926b8498b8acfcd8"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave",
+                        2
+                    ]
+                ],
+                "id": "226fd7f7b49342e6b8f40ba01a679d25"
             }
         ]
-    },
-    "key": "core.device_registry",
-    "version": 1
+    }
 }
