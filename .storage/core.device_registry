@@ -171,7 +171,7 @@
                 "manufacturer": "Plex",
                 "model": "Plex Media Server",
                 "name": "Activity Sensor",
-                "sw_version": "1.32.8.7639-fb6452ebf",
+                "sw_version": "1.41.2.9200-c6bbc1b53",
                 "entry_type": null,
                 "id": "7bcdbec2df7f482d84910e4324b3c758",
                 "via_device_id": null,
@@ -190,10 +190,10 @@
                         "7a20b0b12874a0dc-com-plexapp-android"
                     ]
                 ],
-                "manufacturer": "Plex",
+                "manufacturer": "Android",
                 "model": "Plex for Android (TV)",
                 "name": "Plex (Plex for Android (TV) - SHIELD Android TV)",
-                "sw_version": "9.10.1.36024",
+                "sw_version": null,
                 "entry_type": null,
                 "id": "44a43f4aae3f4da5a92e018b3cffeb40",
                 "via_device_id": "7bcdbec2df7f482d84910e4324b3c758",
@@ -215,7 +215,7 @@
                 "manufacturer": "Plex",
                 "model": "Plex for Android (TV)",
                 "name": "Plex (Plex for Android (TV) - SHIELD Android TV)",
-                "sw_version": "9.10.1.36024",
+                "sw_version": "10.24.0.2257",
                 "entry_type": null,
                 "id": "0a0b37a3ed6344a4b90c9358133aad00",
                 "via_device_id": "7bcdbec2df7f482d84910e4324b3c758",
@@ -263,6 +263,33 @@
                 "entry_type": null,
                 "id": "9287346df240cff98d5ca544c4b14e7e",
                 "via_device_id": "19c83fab866a4e158ac7f42fba49ed90",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e7a32edc06c0fe338cf3b856feaba434"
+                ],
+                "connections": [
+                    [
+                        "zigbee",
+                        "e4:06:bf:ff:fe:21:61:76"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "zha",
+                        "e4:06:bf:ff:fe:21:61:76"
+                    ]
+                ],
+                "manufacturer": "ZHA",
+                "model": "EZSP = Silicon Labs EmberZNet protocol: Elelabs, HUSBZB-1, Telegesis",
+                "name": "Zigbee Coordinator",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "1f8fddd059e671e90429e03906184936",
+                "via_device_id": null,
                 "area_id": null,
                 "name_by_user": null,
                 "disabled_by": null

@@ -78,7 +78,8 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 
 zwave:
-    usb_path: /dev/ttyUSB0
+    #usb_path: /dev/ttyUSB1
+    usb_path: /dev/serial/by-id/usb-Silicon_Labs_HubZ_Smart_Home_Controller_C0F00631-if00-port0
 
 duckdns:
     domain: kjaget

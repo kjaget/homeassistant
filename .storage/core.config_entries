@@ -1,25 +1,30 @@
 {
+    "version": 1,
+    "key": "core.config_entries",
     "data": {
         "entries": [
             {
-                "connection_class": "local_push",
+                "entry_id": "114f6c6c6e074aa7926b8498b8acfcd8",
+                "version": 1,
+                "domain": "zwave",
+                "title": "Z-Wave (import from configuration.yaml)",
                 "data": {
                     "network_key": null,
                     "usb_path": "/dev/ttyUSB0"
                 },
-                "domain": "zwave",
-                "entry_id": "114f6c6c6e074aa7926b8498b8acfcd8",
                 "options": {},
-                "source": "import",
                 "system_options": {
                     "disable_new_entities": false
                 },
-                "title": "Z-Wave (import from configuration.yaml)",
-                "unique_id": null,
-                "version": 1
+                "source": "import",
+                "connection_class": "local_push",
+                "unique_id": null
             },
             {
-                "connection_class": "local_poll",
+                "entry_id": "98556af7579441eab2a44a33774eb142",
+                "version": 1,
+                "domain": "plex",
+                "title": "localhost",
                 "data": {
                     "server": "localhost",
                     "server_config": {
@@ -27,24 +32,39 @@
                     },
                     "server_id": "3b69986b6b1602fa78ffb5a696faad07012b7a1a"
                 },
-                "domain": "plex",
-                "entry_id": "98556af7579441eab2a44a33774eb142",
                 "options": {
                     "media_player": {
                         "show_all_controls": false,
                         "use_episode_art": false
                     }
                 },
-                "source": "discovery",
                 "system_options": {
                     "disable_new_entities": false
                 },
-                "title": "localhost",
-                "unique_id": "3b69986b6b1602fa78ffb5a696faad07012b7a1a",
-                "version": 1
+                "source": "discovery",
+                "connection_class": "local_poll",
+                "unique_id": "3b69986b6b1602fa78ffb5a696faad07012b7a1a"
+            },
+            {
+                "entry_id": "e7a32edc06c0fe338cf3b856feaba434",
+                "version": 2,
+                "domain": "zha",
+                "title": "/dev/serial/by-id/usb-Itead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_V2_aad2ac68b139ef1181085ef454516304-if00-port0",
+                "data": {
+                    "device": {
+                        "path": "/dev/serial/by-id/usb-Itead_Sonoff_Zigbee_3.0_USB_Dongle_Plus_V2_aad2ac68b139ef1181085ef454516304-if00-port0",
+                        "baudrate": 115200
+                    },
+                    "radio_type": "ezsp"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "local_push",
+                "unique_id": null
             }
         ]
-    },
-    "key": "core.config_entries",
-    "version": 1
+    }
 }

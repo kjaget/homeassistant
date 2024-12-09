@@ -7,20 +7,20 @@
                 "entity_id": "automation.master_bedroom_entry_double_tap_on",
                 "state": "on",
                 "attributes": {
-                    "last_triggered": null,
+                    "last_triggered": "2024-11-24T23:09:05.440397+00:00",
                     "mode": "single",
                     "current": 0,
                     "friendly_name": "Master Bedroom Entry Double Tap On"
                 },
-                "last_changed": "2024-02-11T20:49:15.946397+00:00",
-                "last_updated": "2024-02-11T20:49:15.946397+00:00",
+                "last_changed": "2024-12-09T14:38:39.998995+00:00",
+                "last_updated": "2024-12-09T14:38:39.998995+00:00",
                 "context": {
-                    "id": "07b95f12b3ee034941dabf08b4be10e7",
+                    "id": "f57bfaef3086967129d28e7977d6ee03",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2024-02-11T20:49:17.096178+00:00"
+            "last_seen": "2024-12-09T14:38:42.238616+00:00"
         },
         {
             "state": {
@@ -32,15 +32,15 @@
                     "current": 0,
                     "friendly_name": "Master Bedroom Entry Double Tap Off"
                 },
-                "last_changed": "2024-02-11T20:49:15.946789+00:00",
-                "last_updated": "2024-02-11T20:49:15.946789+00:00",
+                "last_changed": "2024-12-09T14:38:39.999683+00:00",
+                "last_updated": "2024-12-09T14:38:39.999683+00:00",
                 "context": {
-                    "id": "7f5d2b2dc86edb415c5af90b0d119a96",
+                    "id": "2c0a8e113b4d2f91e0e77c6e471ec913",
                     "parent_id": null,
                     "user_id": null
                 }
             },
-            "last_seen": "2024-02-11T20:49:17.096178+00:00"
+            "last_seen": "2024-12-09T14:38:42.238616+00:00"
         }
     ]
 }
